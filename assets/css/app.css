@@ -1,0 +1,107 @@
+.todo-list-item{
+    width: 100%!important;
+}
+header{
+    background-color: #FF3F3F!important;
+    color: #fff;
+}
+#app > header > h1{
+    color: #fff!important;
+}
+body{
+    width: 100%!important;
+}
+#todo-section > li > span{
+    line-height: 0!important;
+}
+.add-note{
+    background-color: #FF3F3F;
+    border-radius: 50%;
+    box-shadow: 1px 1.732px 12px 0px rgba( 0, 0, 0, .14 ), 1px 1.732px 3px 0px rgba( 0, 0, 0, .12 );
+    transition: all 1s ease;
+    bottom: 2em;
+    right: 2em;
+    color: #fff;
+    font-size: 24px;
+    display: none;
+    position: fixed;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    line-height: 38px;
+    text-align: center;
+  }
+.del{
+    margin: 0 0 0 87px!important;
+}
+#todo-input{
+    width: 100%;
+    border: none;
+    background-color: #ff0000;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    background: #fff;
+    padding: 7px 0;
+}
+#todo-submit{
+    margin: 0;
+    width: 100%;
+    border: none;
+    font-size: 25px;
+    background-color: #f99000;
+    border-radius:  0 0 10px 10px;  
+    background: #FF3F3F;
+    color: #fff; 
+    padding: 10px 0;
+}
+.container{
+    background-color: #fff!important;
+}
+.icon-edit{
+    font-size: 40px;
+ text-align: center;
+ margin: 5px 10px 0 0;
+}
+#formmodal{
+   padding-top: 95%;
+    background: rgba(90, 90, 90, 0.425)!important;
+}
+.close-form{
+    color: #fff;
+}
+#formmodal > header > h1{
+    color: #fff!important;
+}
+#app > header > a > span, #optionsmodal > header > h1{
+    color: #fff;
+}
+.options{
+    background: #fff;
+    color: #000;
+    z-index: 999!important;
+    position: fixed;
+    margin-left: 70%;
+    padding: 0 30px 0 0;
+    display: none;
+}
+.options li{
+    list-style-type: none!important;
+  margin-top:12px ;
+}
+#optionsmodal{
+    background: rgba(29, 28, 28, 0.274)!important;
+}
+#options-content{
+    background: #fff!important;
+}
+#options-content{
+    height: 30%!important;
+    margin-top:50%;
+}
+#optionsmodal h3{
+    text-align: center!important;
+    margin-top: 30px;
+}
+.center{
+    text-align: center!important;
+}
