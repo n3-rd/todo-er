@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/ratchet.min.css">
+    <link rel="stylesheet" href="assets/css/ratchet-theme-ios.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="app" class="content">
+
+            <div class="options pull-right">
+                    <ul>
+                        <li>about</li>
+                    </ul>
+                </div>
+    
+
+        <header class="bar bar-nav">
+            <a href="#optionsmodal"><span class="icon icon-more-vertical pull-right"></span></a>
+            <h1 class="title">Todo App</h1>
+
+            
+        </header>
+        <br><br><br><br>
+
+      
+
+        <div id="formmodal" class="modal">
+            <header class="bar bar-nav">
+                <a class="icon icon-close pull-right close-form" href="#formmodal"></a>
+                <h1 class="title">
+                    Type in an item
+                </h1>
+            </header>
+            <form>
+                <input type="text" name="text" id='todo-input'>
+                <br>
+                <input id="todo-submit" type="submit" href='#formmodal'>
+                <button id="clear-local">Clear Local</button>
+            </form>
+
+
+            
+        </div>
+
+        <div>
+            <ol id="todo-section">
+
+
+
+            </ol>
+
+        </div>
+
+<!-- Options -->
+
+<div class="modal" id="optionsmodal">
+
+    <header class="bar bar-nav">
+        <a class="icon icon-close pull-right close-form" href="#optionsmodal"></a>
+        <h1 class="title">
+            About
+        </h1>
+    </header>
+
+    <div class="content" id="options-content">
+
+        <h3>Created By N3RD</h3><h6 class="center">As a side project</h6>
+        <h4>Mail: godwinjdayo@gmail.com</h4>
+        <h4>Github: github.com/n3-rd</h4>
+
+</div>
+
+</div>
+
+
+        
+        <a href="#formmodal" class="add-note" style="display: block;"><i class="icon icon-edit"></i></a>
+        <br><br><br><br>
+    </div>
+
+
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/ratchet.min.js"></script>
+
+</html>
